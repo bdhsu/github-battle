@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-require('index.css');
+require('./index.css');
 // state
 // lifecycle events
 // UI
@@ -17,5 +17,5 @@ class App extends React.Component {
 
 ReactDOM.render(
     <App />,
-    document.getElementById('app');
+    document.getElementById('app')
 )
