@@ -7,7 +7,7 @@ ul {
 }
 
 li {
-    list-style: none;
+    list-style-type: none;
 }
 
 a {
@@ -133,4 +133,15 @@ a {
 
 .reset:hover {
     cursor: pointer;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
 }

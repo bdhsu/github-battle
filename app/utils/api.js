@@ -1,10 +1,10 @@
 var axios = require('axios');
 
-/*
-var id = "YOUR_CLIENT_ID";
-var sec = "YOUR_SECRET_ID";
+
+var id = "26af474c1f39f1f526dd";
+var sec = "532014f6f4b590140b423df799af19e38667fff8";
 var params = "?client_id" + id + "&client_secret" + sec;
-*/
+
 
 function getProfile(username) {
     return axios.get('https://api.github.com/users/' + username + params)
@@ -58,7 +58,9 @@ function sortPlayers(players) {
 
 module.exports = {
     battle: function(players) {
-        return axios.all(players.map(getUserData)).then(sortPlayers).catch(handleError);
+        return axios.all(players.map(getUserData))
+            .then(sortPlayers)
+            .catch(handleError);
     },
     fetchPopularRepos: function(language) {
         var encodedURI = window.encodeURI('https://api.github.com/search/repositories?q=stars:>1+language:'+ language + '&sort=stars&order=desc&type=Repositories');
