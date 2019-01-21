@@ -6,7 +6,7 @@ This is my implementation of the final project of **React Fundamentals**, a cour
 
 ## Features
 
-**Custom Boilerplate**: Custom NPM boiletplate using [React](https://github.com/facebook/react), bundling via [Webpack](https://github.com/webpack/webpack), and [Babel](https://github.com/babel/babel) as a compiler.
+**Custom Boilerplate**: Custom NPM boilerplate using [React](https://github.com/facebook/react), bundling via [Webpack](https://github.com/webpack/webpack), and [Babel](https://github.com/babel/babel) as a compiler.
 
 **Multipage**: Routing through [react-router](https://github.com/ReactTraining/react-router)
 
